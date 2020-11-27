@@ -1,0 +1,25 @@
+body {
+  margin: 5em auto;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  background-color: lavender;
+}
+
+h1 {
+  font-weight: 300;
+  border-bottom: 1px solid #333;
+  padding: .3em;
+  width: 25%;
+  margin: .5em auto .5em auto;
+}
+
+#studentDiv, #teacherDiv {
+  border: 2px solid #333;
+  border-radius: 1em;
+  width: 30%;
+  margin: 2em auto;
+  padding-bottom: 2em;
+  line-height: 1.6em;
+  letter-spacing: 1px;
+  background-color: #f3f3f3;
+}
