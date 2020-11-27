@@ -1,16 +1,3 @@
-// async function getData() {
-//   const response = await fetch('students.json');
-//   const data = await response.json();
-      
-//   data.forEach( student => {
-//       const div = document.createElement('div');
-//       div.innerHTML = student.name;
-//       document.body.appendChild(div);
-//   })
-// }
-
-// getData();
-
 
 
 async function getStudents(){
@@ -24,8 +11,6 @@ async function getStudents(){
     document.getElementById('studentDiv').appendChild(studentBio)
 })
 }
- getStudents();
-
 
  async function getTeachers(){
   const res = await fetch('teachers.json');
@@ -38,8 +23,8 @@ async function getStudents(){
     document.getElementById('teacherDiv').appendChild(teacherBio)
 })
 }
- getTeachers();
 
 
-//     // studentBio.innerHTML = (`${student.name} is ${student.age}`);
-//     // document.body.appendChild(studentBio);
+
+getStudents();
+getTeachers();

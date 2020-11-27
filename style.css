@@ -1,5 +1,5 @@
 body {
-  margin: 5em auto;
+  margin: 3em auto;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   background-color: lavender;
@@ -7,13 +7,12 @@ body {
 
 h1 {
   font-weight: 300;
-  border-bottom: 1px solid #333;
   padding: .3em;
-  width: 25%;
+  width: 40%;
   margin: .5em auto .5em auto;
 }
 
-#studentDiv, #teacherDiv {
+#studentDiv, #teacherDiv, .post {
   border: 2px solid #333;
   border-radius: 1em;
   width: 30%;
@@ -21,5 +20,28 @@ h1 {
   padding-bottom: 2em;
   line-height: 1.6em;
   letter-spacing: 1px;
-  background-color: #f3f3f3;
+  background-color: lemonchiffon;
+}
+
+
+.next, .prev {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  border-radius: .3em;
+  padding: 5px 9px;
+  background-color: seashell;
+  text-decoration: none;
+}
+
+.next:hover,
+.next:focus,
+.prev:hover,
+.prev:focus {
+  background-color: lemonchiffon;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
 }
