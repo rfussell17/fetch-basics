@@ -24,7 +24,21 @@ async function getStudents(){
 })
 }
 
+async function getClasses(){
+  const res = await fetch('classes.json');
+  const classes = await res.json();
+
+  classes.forEach( singleClass => {
+    const classInfo = document.createElement('div')
+    const textnode = document.createTextNode(`${singleClass.name} - ${singleClass.level}`)
+    classInfo.appendChild(textnode);
+    document.getElementById('classesDiv').appendChild(classInfo)
+})
+}
+
+
 
 
 getStudents();
 getTeachers();
+getClasses();

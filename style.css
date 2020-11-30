@@ -12,7 +12,7 @@ h1 {
   margin: .5em auto .5em auto;
 }
 
-#studentDiv, #teacherDiv, .post {
+#studentDiv, #teacherDiv, #classesDiv, .post {
   border: 2px solid #333;
   border-radius: 1em;
   width: 30%;
