@@ -1,5 +1,5 @@
 [
-  {"name": "Terrence", "age" : 42}, 
-  {"name": "Philip", "age" : 43}, 
-  {"name": "Stan", "age" : 34}
+  {"name": "Terrence", "age" : 42, "classes" : 4}, 
+  {"name": "Philip", "age" : 43, "classes" : 6}, 
+  {"name": "Stan", "age" : 34, "classes" : 2}
 ]
