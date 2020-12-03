@@ -6,7 +6,7 @@ async function getStudents(){
 
   students.forEach( student => {
     const studentBio = document.createElement('div')
-    const textnode = document.createTextNode(`${student.name} is ${student.age}`)
+    const textnode = document.createTextNode(`${student.name} is in year ${student.year}`)
     studentBio.appendChild(textnode);
     document.getElementById('studentDiv').appendChild(studentBio)
 })
@@ -18,7 +18,7 @@ async function getStudents(){
 
   teachers.forEach( teacher => {
     const teacherBio = document.createElement('div')
-    const textnode = document.createTextNode(`${teacher.name} is ${teacher.age}`)
+    const textnode = document.createTextNode(`${teacher.name} teaches ${teacher.classes} classes`)
     teacherBio.appendChild(textnode);
     document.getElementById('teacherDiv').appendChild(teacherBio)
 })
